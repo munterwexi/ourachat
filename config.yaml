@@ -1,0 +1,15 @@
+---
+credentials:
+  usernames:
+    oura:
+      email: "unterwexi@gmail.com"
+      name: "Markus Unterweger"
+      password: "$2b$12$eFaDD7UG0Khxo32tjO4K.eFdfEl.TA/QLPY1.kqtJsjvV7mdeqlAq"
+    
+cookie:
+  expiry_days: 30
+  key: "dlkjdlkjflkj" # Must be string
+  name: "auth"
+preauthorized:
+  emails:
+  - unterwexi@gmail.com
