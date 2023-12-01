@@ -35,7 +35,7 @@ if authentication_status:
 
     st.title("Chat with your sleep data")
     
-    token = "XKI4ILG574FF6JEKADMLASWEAFCBEAHZ"
+    token = os.getenv("OURATOKEN")
     start_date = "2023-10-01"
     end_date = "2023-12-01"
 
@@ -70,7 +70,7 @@ if authentication_status:
     client = OpenAI()
 
     if "openai_model" not in st.session_state:
-        st.session_state["openai_model"] = "gpt-3.5-turbo-16k"
+        st.session_state["openai_model"] = "gpt-4-1106-preview"
 
     if "messages" not in st.session_state:
         st.session_state.messages = []
