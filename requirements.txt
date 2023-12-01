@@ -3,5 +3,5 @@ pandas
 pydeck
 streamlit
 streamlit-authenticator
-openai==0.28.1
+openai
 tiktoken
